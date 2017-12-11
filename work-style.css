@@ -1,0 +1,172 @@
+html {
+    background-color:#F4F1F1;
+}
+
+.page {
+    display:grid;
+    grid-template-columns:400px 1fr;
+    grid-column-gap: 25px;
+}
+
+.nav {
+/*    display:grid;*/
+    margin-top:50px;
+    margin-left: 25px;
+    position: fixed;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.work1 {
+    grid-column: 2/3;
+}
+
+.grid-item {
+    width: 400px;
+    float:left;
+}
+
+#filter {
+    display: grid;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: Medium;
+    margin-top: 50px;
+    margin-left: 50px;
+    line-height: 30px;
+}
+
+#sign {
+    margin-left: 25px;
+}
+
+h1 {
+    margin-left: 50px;
+}
+
+h1 a:hover {
+    color: #4056ff;
+}
+
+#current_page{
+    background-color: none;
+    color: #4056ff;
+    padding-left: 10px;
+    border-left-style: solid;
+    
+}
+
+h2 {
+    margin-left: 50px;
+    color: gray;
+}
+
+#home {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: Medium;
+    font-size: 16pt;
+    margin-top: 30px;
+}
+
+#about {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: Medium;
+    font-size: 16pt;
+    margin-top: 25px;
+}
+
+#email {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:100;
+    font-size: 10pt;
+    margin-top: 25px;
+}
+
+#insta {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:100;
+    font-size: 10pt;
+    margin-top: 15px;
+}
+
+.invisible {
+}
+
+.grid-item {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+#work {
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-bottom: 200px;
+}
+
+.work-image1 {
+    width: 500px;
+}
+
+#title {
+    margin-bottom: 10px;
+    width: 400px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12pt;
+    font-weight: 700;
+}
+
+#title2 {
+    width: 200px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12pt;
+    font-weight: 400;
+}
+
+span {
+    font-weight:400
+}
+
+#blurb {
+    margin-top: 20px;
+    width: 400px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 10pt;
+    font-weight:400;
+}
+
+.work-image2 {
+    margin-top: 100px;
+    width: 500px;
+}
+
+.work-image3 {
+    margin-top: 100px;
+    width: 500px;
+}
+
+.work-image4 {
+    margin-top: 100px;
+    width: 500px;
+}
+
+.work-image5 {
+    margin-top: 100px;
+    width: 500px;
+}
+
+.work-image6 {
+    margin-top: 100px;
+    width: 500px;
+}
+
+.work-image7 {
+    margin-top: 100px;
+    width: 500px;
+}
